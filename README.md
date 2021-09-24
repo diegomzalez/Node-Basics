@@ -22,3 +22,11 @@ Some modules come with Node, and other we can get with package managers. For exa
 There's a event bucle running constanly listening these events.
 You can orient your code reactively.
 
+## Event Loop
+It's a process with a loop that it manages and resolves , asynchronously, all events of your application. These events are sent to the Event Loop by the Event Queue.
+
+## Event Queue
+It contains everything that is sent to it in our code (request, function, event, etc), Passing events to the Event Loop one by one.
+
+## Thread Pool
+If the Event Loop cannot resolve some heavy events, the Thread Pool will manage and resolve these events asynchronously. Then send them to the Event Queue.
