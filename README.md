@@ -30,3 +30,37 @@ It contains everything that is sent to it in our code (request, function, event,
 
 ## Thread Pool
 If the Event Loop cannot resolve some heavy events, the Thread Pool will manage and resolve these events asynchronously. Then send them to the Event Queue.
+
+## Enviroment Variables
+The Environments variables are datas that we can get outside our code.
+
+To declarate an environment variables, we can use the following syntax:
+
+cost envVar = 
+
+So then we can assign any value executing our script:
+
+envVar=EXAMPLE node example.js
+
+## Nodemon
+nodemon is a tool that helps develop node.js based applications by automatically restarting the node application when file changes in the directory are detected.
+
+## Installation
+Either through cloning with git or by using npm (the recommended way):
+
+npm install -g nodemon
+
+# Asynchronous
+
+## Callbacks
+JavaScript callbacks are executed in the sequence they are called. Not in the sequence they are defined.
+
+## Callback Hell
+Hell callbacks occur when you start to pass a function as a parameter that in turn calls another function as a parameter, and so on up to n numbers.
+
+## Promises
+Promises are a more elegant and readable syntax for making callbacks, thus creating a much more scalable and understandable code for all people.
+
+## Async-Await
+To avoid that everything looks asynchronous, and that the syntax is more readable, sequential operations such as making a file to be processed, uploading it to have a URL and then sending it to a database.
+Async and Await allow us to explicitly define a function as asynchronous and wait for the function to finish. It will not be blocking the main thread, as it will be waiting for it to be resolved with the event loop.
