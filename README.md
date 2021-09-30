@@ -73,7 +73,7 @@ __Node__ has the global object that it contains all methods and basics propertie
 __Global__ is the equivalent of __this__ in the browser.
 
 ## File System
-File System is a __module of node__ that it give us methods to modify our files on our system.
+File System is a __module of Node__ that it give us methods to modify our files on our system.
 
 ### readFile
 It __reads__ the content of a file, we will pass as a parameter the url of the file to read:
@@ -89,3 +89,44 @@ It __writes__ and __create__ a file (if the file doesn't exist), we will pass as
 __delete__ will delete a file, we will pass parameter the url of the file.
 
         fs.unlink(url);
+
+## Console
+Using console we can show values on our terminal:
+
+- console.log: receives any type and displays it in the console.
+- console.info: it is equivalent to log but it is used to inform.
+- console.error: it is equivalent to log but it is used for errors.
+- console.warn: it is equivalent to log but it is used for warning.
+- console.table: displays a table from an object.
+- console.count: starts an auto increment counter.
+- console.countReset: reset the counter to 0.
+- console.time: start a timer in ms.
+- console.timeEnd: End the timer.
+- console.group: allows grouping errors by indentation.
+- console.groupEnd: end grouping.
+- console.clear: clear the console.
+
+Using this console methods, we can make our code much more effective, legible and professional. Showing direct and effective information.
+
+## Errors (Try / Catch)
+
+With __Node__ we can handle errors in a very optimal way, but first we must understand how Node handles errors by default.
+When an error happens in Node, it will by default end the entire process of our code to warn that an error has occurred, this can be fatal for our projects, errors are also reported by threads, that is, if an error happens in the main thread of the event loop, that is, the queue event, the error will be warned from this same thread, but if an error happens before from another thread such as the thread of asynchronous functions, the error will be warned from that thread without showing the main thread error.
+We can handle this flow of errors so that Node does not stop when one occurs and we can handle it according to our wishes, for this we use try and catch. Being try the block of code that will execute the function that may or may not fail and being catch the function that will catch the error and we will specify what to do with it.
+
+        try {
+                (code executed successfully)
+        } catch (error) {
+                (error code)
+        };
+
+## Child Process
+
+In __Node__ we can create child processes that execute any action of our operating system, as if we were on the command line. It has two functions __spawn__ and __exec__.
+The most significant difference between child_process.spawn and child_process.exec is in what spawn returns a stream and exec returns a buffer.
+
+- Use spawn when you want the child process to return huge binary data to Node.
+
+- Use exec when you want the child process to return simple status messages.
+- Use spawn when you want to receive data from the moment the process starts.
+- Use exec when you only want to receive data at the end of the execution.

@@ -60,9 +60,9 @@ async function delete_(url) {
 const main = async () => {
         await read_file(__dirname + '/file.txt');
         await write_file(__dirname + '/file1.txt', 'Francisco es pato');
-        await delete_(__dirname + '/file1.txt')
+         /*await delete_(__dirname + '/file1.txt')
                 .then(resolve => {
                         console.log("Hola")
-                })
+                })*/
 };
 main();

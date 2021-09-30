@@ -1,0 +1,22 @@
+{
+  "name": "node-basics",
+  "version": "1.0.0",
+  "description": "Node Basics Course",
+  "main": "src/",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegomdevs/Node-Basics.git"
+  },
+  "author": "Diego González",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/diegomdevs/Node-Basics/issues"
+  },
+  "homepage": "https://github.com/diegomdevs/Node-Basics#readme",
+  "dependencies": {
+    "node-gyp": "^8.2.0"
+  }
+}
