@@ -1,0 +1,11 @@
+const isOdd = require('is-odd');
+const isEven = require('is-even');
+console.group('Is-odd');
+console.log(isOdd(3));
+console.log(isOdd(5));
+console.groupEnd();
+console.group('Is-even');
+console.log(isOdd(0));
+console.log(isEven(2));
+console.log(isEven(4));
+console.groupEnd();

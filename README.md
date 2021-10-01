@@ -145,3 +145,25 @@ OS provide us methods to get OS information.
 
 ## Process
 The process object is an EventEmitter instance; we can subscribe to it to listen for node events.
+
+## NPM
+Npm is the most popular JavaScript package manager that gives us many tools to implement them
+in your projects and also share them with the community.
+
+## Require and Import
+To import our own or third-party modules, we must use the require or import.
+
+## Useful Modules
+
+### Bcrypt
+With __bcrypt__ we can encrypt passwords in a very efficient and fast way.
+
+### Moment
+__Moment__ provides us with very detailed time information in our app.
+
+### Sharp
+Sharp methods help us to modify images effectively.
+
+
+
+
