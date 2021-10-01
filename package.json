@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/diegomdevs/Node-Basics#readme",
   "dependencies": {
-    "node-gyp": "^8.2.0"
+    "node-gyp": "^8.2.0",
+    "nodemon": "^2.0.13"
   }
 }

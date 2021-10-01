@@ -130,3 +130,12 @@ The most significant difference between child_process.spawn and child_process.ex
 - Use exec when you want the child process to return simple status messages.
 - Use spawn when you want to receive data from the moment the process starts.
 - Use exec when you only want to receive data at the end of the execution.
+
+## Natives Modules
+In __Node__ we can use native modules, to execute code of others languages in Node. In this case, I use a native module of __C++__ to display a hello world. More info [C++ Addons](https://nodejs.org/api/addons.html).
+Also I use [node-gyp][https://github.com/nodejs/node-gyp] to build the program.
+
+## HTTP
+__Node__ offers us the __HTTP__ module which mainly allows us to create a server on our computer.
+In this module we will find everything we need to create a route system, which will respond to each route, the headers it can send, etc.
+One of the main methods of this module is createServer, which will allow us to open a port to create the server.
