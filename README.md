@@ -142,3 +142,6 @@ One of the main methods of this module is createServer, which will allow us to o
 
 ## OS
 OS provide us methods to get OS information.
+
+## Process
+The process object is an EventEmitter instance; we can subscribe to it to listen for node events.
