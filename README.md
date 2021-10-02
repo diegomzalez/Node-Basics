@@ -162,8 +162,20 @@ With __bcrypt__ we can encrypt passwords in a very efficient and fast way.
 __Moment__ provides us with very detailed time information in our app.
 
 ### Sharp
-Sharp methods help us to modify images effectively.
+__Sharp__ methods help us to modify images effectively.
 
+## Data stored vs in memory
+Learning about __buffers__ and __streams__, the correct way to manage all data process to have faster and more powerful processes.
+
+### Buffer
+A __buffer__ is a memory space (in ram memory), in which data is stored temporarily.
+
+It is the crudest form in which data can be stored. (They are saved in bytes and the data type is not specified)
+
+On the console, the data is displayed in hexadecimal format.
+
+### Streams
+__Streams__ are Buffer reading points, with these we can declare what actions to execute when a buffer is received. There are three types of streams, read stream, write stream, and read / write stream.
 
 
 
