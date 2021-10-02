@@ -177,5 +177,8 @@ On the console, the data is displayed in hexadecimal format.
 ### Streams
 __Streams__ are Buffer reading points, with these we can declare what actions to execute when a buffer is received. There are three types of streams, read stream, write stream, and read / write stream.
 
+# NodeJS tricks
 
-
+## Benchmarking (console time y timeEnd)
+It encloses a block of code and then evaluates how long it takes to execute.
+And you can also work this with asynchronous processes.
