@@ -182,3 +182,13 @@ __Streams__ are Buffer reading points, with these we can declare what actions to
 ## Benchmarking (console time y timeEnd)
 It encloses a block of code and then evaluates how long it takes to execute.
 And you can also work this with asynchronous processes.
+
+## Debugger
+__NodeJS__ comes integrated with a debug mode to be able to connect from any code inspection tool to our nodejs code.
+
+We can use the --inspect flag in the terminal with nodemon.
+
+## Error First Callbacks
+A pattern that is always followed in any language and dev program is Error First Callbacks, this means that whenever we have a callback, the first parameter should be the error.
+### Throw
+Throw a user-defined exception.
