@@ -192,3 +192,14 @@ We can use the --inspect flag in the terminal with nodemon.
 A pattern that is always followed in any language and dev program is Error First Callbacks, this means that whenever we have a callback, the first parameter should be the error.
 ### Throw
 Throw a user-defined exception.
+
+# Manage tools with Node
+## Scraping
+Web scraping is a technique used by software programs to extract information from websites.
+
+## Process automation
+it is a task executor.
+
+## Desktop Apps
+### Electron
+It enables the development of graphical desktop applications using client and server-side components originally developed for web applications
